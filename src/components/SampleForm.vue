@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Here is sample form</h1>
+    <h1 class="form-header">Here is sample form</h1>
     <div class="row">
       <div class="col-md-12">
         <b-b-form/>
@@ -17,3 +17,8 @@ export default {
   }
 }
 </script>
+<style lang="scss">
+  .form-header {
+    color: red;
+  }
+</style>
