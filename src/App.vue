@@ -39,6 +39,10 @@ export default {
   },
   mounted () {
     this.message = 'Hello I changed'
+    let customizeJs = document.createElement('script')
+    // TODO: Get js file by userId
+    customizeJs.setAttribute('src', 'http://example.local/customize/harry.js')
+    document.head.appendChild(customizeJs)
   }
 }
 </script>
